@@ -36,6 +36,7 @@ func main() {
 	c.Wait()
 
 	bs, err := json.MarshalIndent(messages, "", "\t")
+	
 	if err != nil {
 		panic(err)
 	}
