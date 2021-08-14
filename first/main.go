@@ -7,6 +7,7 @@ import (
 	"github.com/gocolly/colly"
 )
 
+// Site to crawl
 const site = "https://twitter.com/Todd_McLeod/status/1169751640926146560"
 
 type tweet struct {
@@ -36,7 +37,7 @@ func main() {
 	c.Wait()
 
 	bs, err := json.MarshalIndent(messages, "", "\t")
-	
+
 	if err != nil {
 		panic(err)
 	}
