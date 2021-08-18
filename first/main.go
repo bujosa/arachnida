@@ -16,6 +16,7 @@ type tweet struct {
 	Message  string
 }
 
+// Note: This is example is outdated because the Twitter frontend has changed
 func main() {
 	c := colly.NewCollector()
 
