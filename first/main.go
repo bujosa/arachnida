@@ -8,7 +8,7 @@ import (
 )
 
 // Site to crawl
-const site = "https://twitter.com/Todd_McLeod/status/1169751640926146560"
+const site = "https://twitter.com/david_bujosa/status/1165109248868724737"
 
 type tweet struct {
 	Name     string
