@@ -36,3 +36,6 @@ require (
 ## Technicalseo
 With this page you Test and validate your robots.txt. Check if a URL is blocked and how. You can also check if the resources for the page are disallowed.
 [Validator and testing tool](https://technicalseo.com/tools/robots-txt/)
+
+## Reddit Robots
+Visit this page [Reddit](https://www.reddit.com/robots.txt)
