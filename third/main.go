@@ -63,6 +63,7 @@ func main() {
 
 	}
 
+	//Wait for all requests to be finished
 	c.Wait()
 	fmt.Println(stories)
 
